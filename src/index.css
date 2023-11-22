@@ -1,13 +1,25 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.forgot-password {
+  cursor: pointer;
+}
+
+.forgot-password:hover {
+  color: #ca2323;
+}
+
+.small-text {
+  font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.special-error {
+  white-space: pre-line;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
